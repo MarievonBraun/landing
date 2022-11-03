@@ -1,0 +1,38 @@
+.cards {
+  display: flex;
+  justify-content: space-around;
+  gap: 50px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.container h2 {
+  display: block;
+  text-align: center;
+  margin-inline: auto;
+  margin: 40px;
+}
+
+.card {
+  border-radius: 3px;
+  box-shadow: 0 0 5px rgb(230 230 230);
+  text-align: center;
+  padding: 20px;
+  border: 1px solid rgb(230,230,230);
+  width: 242px;
+  height: 310px;
+  font-size: 16;
+}
+.card p {
+  color: black;
+}
+
+.container {
+  margin:auto;
+  padding: 30px
+}
+
+.card img {
+  width: 150px;
+  height: 150px;
+}
